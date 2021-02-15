@@ -92,7 +92,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[11])+" Cursors.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(11))+" cookies and "+format(layers.c.getGainP(11))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(11))+" cookies and "+format(layers.c.getGainP(11))+" points per second.<br>"+
 					"Cost for Next Cursor: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -115,7 +115,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[12])+" Grandmas.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(12))+" cookies and "+format(layers.c.getGainP(12))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(12))+" cookies and "+format(layers.c.getGainP(12))+" points per second.<br>"+
 					"Cost for Next Grandma: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -138,7 +138,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[21])+" Farms.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(21))+" cookies and "+format(layers.c.getGainP(21))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(21))+" cookies and "+format(layers.c.getGainP(21))+" points per second.<br>"+
 					"Cost for Next Farm: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -161,7 +161,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[22])+" Mines.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(22))+" cookies and "+format(layers.c.getGainP(22))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(22))+" cookies and "+format(layers.c.getGainP(22))+" points per second.<br>"+
 					"Cost for Next Mine: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -184,7 +184,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[31])+" Factories.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(31))+" cookies and "+format(layers.c.getGainP(31))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(31))+" cookies and "+format(layers.c.getGainP(31))+" points per second.<br>"+
 					"Cost for Next Factory: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -207,7 +207,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[32])+" Banks.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(32))+" cookies and "+format(layers.c.getGainP(32))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(32))+" cookies and "+format(layers.c.getGainP(32))+" points per second.<br>"+
 					"Cost for Next Bank: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -230,7 +230,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[41])+" Temples.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(41))+" cookies and "+format(layers.c.getGainP(41))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(41))+" cookies and "+format(layers.c.getGainP(41))+" points per second.<br>"+
 					"Cost for Next Temple: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -253,7 +253,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[42])+" Wizard Towers.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(42))+" cookies and "+format(layers.c.getGainP(42))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(42))+" cookies and "+format(layers.c.getGainP(42))+" points per second.<br>"+
 					"Cost for Next Wizard Tower: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -276,7 +276,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[51])+" Shipments.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(51))+" cookies and "+format(layers.c.getGainP(51))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(51))+" cookies and "+format(layers.c.getGainP(51))+" points per second.<br>"+
 					"Cost for Next Shipment: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -300,7 +300,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[52])+" Alchemy Labs.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(52))+" cookies and "+format(layers.c.getGainP(52))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(52))+" cookies and "+format(layers.c.getGainP(52))+" points per second.<br>"+
 					"Cost for Next Alchemy Lab: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -324,7 +324,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[61])+" Portals.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(61))+" cookies and "+format(layers.c.getGainP(61))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(61))+" cookies and "+format(layers.c.getGainP(61))+" points per second.<br>"+
 					"Cost for Next Portal: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -348,7 +348,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[62])+" Time Machines.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(62))+" cookies and "+format(layers.c.getGainP(62))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(62))+" cookies and "+format(layers.c.getGainP(62))+" points per second.<br>"+
 					"Cost for Next Time Machine: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -372,7 +372,7 @@ addLayer("c", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.c.buyables[71])+" Antimatter Condensers.<br>"+
-					"Thay are producing "+format(layers.c.getGainC(71))+" cookies and "+format(layers.c.getGainP(71))+" points per second.<br>"+
+					"They are producing "+format(layers.c.getGainC(71))+" cookies and "+format(layers.c.getGainP(71))+" points per second.<br>"+
 					"Cost for next Antimatter Condenser: "+format(data.cost)+" cookies";
 				},
 				cost(){
@@ -1598,7 +1598,7 @@ addLayer("a", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.a.dim1)+" First Dimensions. ("+format(player.a.buyables[11])+" bought)<br>"+
-					"Thay are producing "+format(tmp.a.getResetGain)+" antimatter per second.<br>"+
+					"They are producing "+format(tmp.a.getResetGain)+" antimatter per second.<br>"+
 					"Cost for Next First Dimension: "+format(data.cost)+" antimatter";
 				},
 				cost(){
@@ -1624,7 +1624,7 @@ addLayer("a", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.a.dim2)+" Second Dimensions. ("+format(player.a.buyables[12])+" bought)<br>"+
-					"Thay are producing "+format(layers.a.getGainD(12))+" First Dimensions per second.<br>"+
+					"They are producing "+format(layers.a.getGainD(12))+" First Dimensions per second.<br>"+
 					"Cost for Next Second Dimension: "+format(data.cost)+" antimatter";
 				},
 				cost(){
@@ -1650,7 +1650,7 @@ addLayer("a", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.a.dim3)+" Third Dimensions. ("+format(player.a.buyables[21])+" bought)<br>"+
-					"Thay are producing "+format(layers.a.getGainD(21))+" Second Dimensions per second.<br>"+
+					"They are producing "+format(layers.a.getGainD(21))+" Second Dimensions per second.<br>"+
 					"Cost for Next Third Dimension: "+format(data.cost)+" antimatter";
 				},
 				cost(){
@@ -1676,7 +1676,7 @@ addLayer("a", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.a.dim4)+" Fourth Dimensions. ("+format(player.a.buyables[22])+" bought)<br>"+
-					"Thay are producing "+format(layers.a.getGainD(22))+" Third Dimensions per second.<br>"+
+					"They are producing "+format(layers.a.getGainD(22))+" Third Dimensions per second.<br>"+
 					"Cost for Next Fourth Dimension: "+format(data.cost)+" antimatter";
 				},
 				cost(){
@@ -1702,7 +1702,7 @@ addLayer("a", {
 				display(){
 					let data = tmp[this.layer].buyables[this.id];
 					return "You have "+format(player.a.dim5)+" Fifth Dimensions. ("+format(player.a.buyables[31])+" bought)<br>"+
-					"Thay are producing "+format(layers.a.getGainD(31))+" Fourth Dimensions per second.<br>"+
+					"They are producing "+format(layers.a.getGainD(31))+" Fourth Dimensions per second.<br>"+
 					"Cost for Next Fifth Dimension: "+format(data.cost)+" antimatter";
 				},
 				cost(){
