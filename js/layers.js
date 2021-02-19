@@ -415,6 +415,9 @@ addLayer("c", {
                     player[this.layer].points = player[this.layer].points.sub(cost)	
                     player[this.layer].buyables[this.id] = player[this.layer].buyables[this.id].add(1)
                     player[this.layer].spentOnBuyables = player[this.layer].spentOnBuyables.add(cost)
+					if(player[this.layer].buyables[this.id].gte(1)){
+						player.s.unlocked=true;
+					}
                 },
 				unlocked(){return hasUpgrade("h",53);}
 			},
