@@ -7,6 +7,10 @@
 	margin: auto;
 }
 
+.fill {
+	transition-duration: 0s;
+}
+
 *:focus {
 	outline: none;
 	webkit-outline: none;

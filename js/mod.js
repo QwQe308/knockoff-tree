@@ -12,11 +12,15 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "1.0",
+	num: "1.1",
 	name: "",
 }
 
 let changelog = "<h2>Changelog</h2><br>"+
+	"<h3>v1.1</h3><br>"+
+	"- Added 5 cookie buyables, 35 cookie upgrades, and 26 heavenly chip upgrades.<br>"+
+	"- Added spectrum.<br>"+
+	"- Added last 3 dimensions and tickspeed.<br>";
 	"<h3>v1.0</h3><br>"+
 	"- Add cookies and heavenly chips.<br>"+
 	"- Add 13 cookie buyables, 75 cookie upgrades, and 30 heavenly chip upgrades.<br>"+
@@ -59,7 +63,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return hasUpgrade("c",155);
+	return hasUpgrade("c",225);
 }
 
 
