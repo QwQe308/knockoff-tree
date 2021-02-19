@@ -58,7 +58,8 @@ function addedPlayerData() { return {
 
 // Display extra things at the top of the page
 var displayThings = [
-	"Mod Author: qq1010903229 (loader3229)"
+	"Mod Author: qq1010903229 (loader3229)",
+	"Buy Cookie Upgrade 225 to beat the game"
 ]
 
 // Determines when the game "ends"
